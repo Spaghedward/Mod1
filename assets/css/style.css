@@ -1,3 +1,4 @@
+/* Font family property was removed from other elements and is only found globally */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,11 +6,13 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* CSS was organized element>class>id. */
+/* I started sorting by specificity, but questioned if that was right*/
 body {
     background-color: #d9dcd6;
 }
 
-
+/* a and p tags moved from bottom of stylesheet */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -19,6 +22,7 @@ p {
     font-size: 16px;
 }
 
+/* fieldset added for contact card */
 fieldset {
     border: medium none !important;
     margin: 0 0 10px;
@@ -27,6 +31,7 @@ fieldset {
     width: 100%;
 }
 
+/* below used to style navbar*/
 nav ul li {
     padding-top: 15px;
     font-size: 20px;
@@ -90,6 +95,7 @@ nav ul li {
     color: #ffffff;
 }
 
+/* header was fixed to top of page */
 .header {
     display: flex;
     justify-content: space-between;
@@ -107,10 +113,10 @@ nav ul li {
     font-size: 48px;
 }
 
+/* added hover to submit button */
 button:hover {
     cursor:grab;
 }
-
 
 
 .benefit-lead h3 {
@@ -212,6 +218,7 @@ button:hover {
     font-size: 36px;
 }
 
+/* styling for contact card */
 .container #contact h3 {
     text-align: center;
     margin-bottom: 10px;
@@ -230,6 +237,7 @@ button:hover {
     font-size: 20px;
 }
 
+/* added contact id for contact card */
 #contact {
     margin-right: 20px;
     padding: 20px;
