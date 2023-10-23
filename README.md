@@ -11,7 +11,7 @@ Assets folder contains stylesheet and images.
 
 ## Credits
 
-colorlib
+colorlib for the contact card.
 
 ## Contributing
 
